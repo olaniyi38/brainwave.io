@@ -65,7 +65,7 @@ const FAQs: React.FC = () => {
             <div key={index} className="">
               <div className="flex items-start mb-4">
                 <FaQuestionCircle className="fill-green stroke-white mr-3 text-2xl" />
-                <h3 className="text-xl font-semibold">{faq.question}</h3>
+                <h3 className="text-lg md:text-xl font-semibold">{faq.question}</h3>
               </div>
               <p className="text-v-light-blue mb-4 pr-4 md:max-w-[80%] pl-10">{faq.answer}</p>
               {faq.link && (
