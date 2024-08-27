@@ -1,4 +1,4 @@
-import { HiChevronRight } from "react-icons/hi2";
+
 import imgSrc from "../assets/images/profile.svg";
 import Button from "./Button";
 import { HiArrowRight } from "react-icons/hi";

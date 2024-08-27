@@ -1,7 +1,7 @@
 import { FC, useRef } from "react";
 import Button from "./Button";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
+
 
 type Props = {
   isActive: boolean;
