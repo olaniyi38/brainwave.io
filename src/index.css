@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: "gilroy-regular";
+    }
+    h1,
+    h2 {
+        font-family: "gilroy-bold";
+    }
+    @font-face {
+        font-family: "gilroy-bold";
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: normal;
+        src: url(/src/assets/fonts/Gilroy-Bold.ttf) format("truetype");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "gilroy-extrabold";
+        font-style: normal;
+        font-weight: 800;
+        font-stretch: normal;
+        src: url(/src/assets/fonts/Gilroy-ExtraBold.ttf) format("truetype");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "gilroy-thin";
+        font-style: normal;
+        font-weight: 100;
+        font-stretch: normal;
+        src: url(/src/assets/fonts/Gilroy-Thin.ttf) format("truetype");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "gilroy-regular";
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: normal;
+        src: url(/src/assets/fonts/Gilroy-Regular.ttf) format("truetype");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "gilroy-medium";
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: normal;
+        src: url(/src/assets/fonts/Gilroy-Medium.ttf) format("truetype");
+        font-display: swap;
+    }
+}
+
+.clip-up {
+    clip-path: inset(0% 0% 100% 0%);
+}
+
+/* * {
+    outline: 1px solid red;
+} */
